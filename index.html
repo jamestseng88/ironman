@@ -113,7 +113,15 @@ th, td {
                    <option value="Main meal">
                    <option value="Drink">
                    <option value="dessert">
-                  </datalist><br>
+                  </datalist><br><br>
+		 oninput="x.value=parseInt(a.value)+(parseInt(b.value)*10)">
+                    0
+                   <input type="range" id="a" name="a" value="50">
+                    100 +
+                   <input type="number" id="b" name="b" value="50">
+		   =
+                   <output name="x" for="a b"></output>
+  <br><br>
 		<input type="submit" value="Submit">
           </fieldset>
         </form>
